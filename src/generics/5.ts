@@ -1,17 +1,15 @@
 export enum UserRole {
-  admin = 'admin',
-  editor = 'editor',
-  guest = 'guest',
+  admin = "admin",
+  editor = "editor",
+  guest = "guest",
 }
 
-
 const RoleDescription: Record<UserRole, string> = {
-  [User Role.admin]: 'Admin User',
-  [User Role.editor]: 'Editor User',
-  [User Role.guest]: 'Guest User',
+  [UserRole.admin]: "Admin User",
+  [UserRole.editor]: "Editor User",
+  [UserRole.guest]: "Guest User",
 };
 
-
-console.log(RoleDescription[User Role.admin]); 
-console.log(RoleDescription[User Role.editor]); 
-console.log(RoleDescription[User Role.guest]); 
+console.log(RoleDescription[UserRole.admin]);
+console.log(RoleDescription[UserRole.editor]);
+console.log(RoleDescription[UserRole.guest]);
